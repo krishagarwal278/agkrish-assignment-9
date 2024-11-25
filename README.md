@@ -5,7 +5,7 @@ This project implements and visualizes a simple feedforward neural network with 
 - Hidden layer features and their transformations.
 - Decision boundaries in the input space.
 - Gradients with visual representations of their magnitudes.
-- 
+
 ## Submission
 Video demo: 
 
