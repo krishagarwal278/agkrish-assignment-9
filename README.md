@@ -1,23 +1,34 @@
-# Assignment 9: Neural Networks
+# **Neural Network Visualization and Analysis**
+
+## **Overview**
+This project implements and visualizes a simple feedforward neural network with one hidden layer for binary classification. The neural network is trained on a synthetic 2D dataset, and various aspects of its learning process are visualized, including:
+- Hidden layer features and their transformations.
+- Decision boundaries in the input space.
+- Gradients with visual representations of their magnitudes.
+- 
+## Submission
+Video demo: 
+
+## **Key Features**
+1. **Neural Network Architecture**:
+   - **Input Layer**: 2 neurons (2D input data).
+   - **Hidden Layer**: 3 neurons with configurable activation functions (`tanh`, `relu`, `sigmoid`).
+   - **Output Layer**: 1 neuron for binary classification.
+
+2. **Visualization**:
+   - **Hidden Space Features**: 3D scatter plot of the hidden layer activations.
+   - **Decision Boundary**: Contour plot of the decision boundary in the input space.
+   - **Gradients**: Edge thickness visualizes gradient magnitudes between neurons.
+
+3. **Activation Functions**:
+   - Supports `tanh`, `relu`, and `sigmoid` activation functions, allowing comparison of their effects on learning and visualization.
+
+4. **Animation**:
+   - Dynamic visualization of the training process, saved as GIFs.
 
 ---
 
-In this assignment, you will implement and analyze a simple neural network by visualizing its learned features, decision boundary, and gradients. The goal is to develop a deeper understanding of how a Feedforward Neural Network with one hidden layer operates and represents the input space during learning.
-
-## Task Overview
-
-You are tasked to build and analyze a neural network from scratch with the following specifications:
-- **Architecture**: A Feedforward Neural Network with:
-  - Input layer: Dimensionality of 2.
-  - Hidden layer: 1 hidden layer with 3 neurons.
-  - Output layer: Single output for binary classification.
-- **Dataset**: A randomly generated 2D dataset with two classes separated by a circular decision boundary.
-- **Activation function**: Use a non-linear activation function like ReLU, Sigmoid, or Tanh for the hidden layer.
-- **Loss function**: Cross-entropy loss.
-- **Optimizer**: Gradient Descent.
-
-You will then visualize and interpret the model’s behavior.
-
+## **How to Run**
 
 ## Part 0: Setup Environment
 
@@ -76,15 +87,4 @@ This will start the Flask server and make the interactive application available 
 2. Choose the corresponding parameters and click "Train and Visualize". 
 3. The resulting figure will be displayed. It may take a while before the results show up.
 
-
-## Submission
-
-1. Create a Short Demo Video (1-2 minutes):
-   
-   - Create a demo video by screen recording your output with your voice-over.
-   - Explain any patterns you observe regarding the learned features, decision boundary and gradients.
-   - Compare the convergence behavior of the training process for different activation functions.
-
-2. Submit both your completed code and the demo video link.
-You can either embed the demo video in your portfolio website or just create an unlisted YouTube video with a link to that YT video in your assignment 9 github repo's readme.
 
