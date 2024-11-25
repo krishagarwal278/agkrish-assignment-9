@@ -7,7 +7,8 @@ This project implements and visualizes a simple feedforward neural network with 
 - Gradients with visual representations of their magnitudes.
 
 ## Submission
-Video demo: 
+Video demo: <a> https://youtu.be/OLkw4VMZKG0 </a>
+
 
 ## **Key Features**
 1. **Neural Network Architecture**:
